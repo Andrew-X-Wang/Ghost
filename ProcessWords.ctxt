@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.ArrayList\ allWordsToList()
+comment1.params=letter
+comment1.target=int\ getNumberFromLetter(char)
+comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+comment10.params=s
+comment10.target=java.util.ArrayList\ FakeendsWith(java.lang.String)
+comment11.params=s
+comment11.target=java.util.ArrayList\ endsWith(java.lang.String)
+comment12.params=pf\ possWord
+comment12.target=boolean\ checkPrefix(java.lang.String,\ java.lang.String)
+comment13.params=
+comment13.target=void\ removeRepeats()
+comment2.params=num
+comment2.target=java.lang.String\ getLCLetterFromNumber(int)
+comment3.params=num
+comment3.target=java.lang.String\ getUCLetterFromNumber(int)
+comment4.params=s
+comment4.target=char[]\ alphabetizeLetters(java.lang.String)
+comment5.params=s
+comment5.target=boolean\ isAWord(java.lang.String)
+comment6.params=s
+comment6.target=java.util.ArrayList\ findAnagrams(java.lang.String)
+comment6.text=\n\ NOT\ DONE\ YET\n
+comment7.params=s
+comment7.target=java.util.ArrayList\ allWordsWithLetters(java.lang.String)
+comment7.text=public\ ArrayList<ArrayList<String>>\ getWordCreatorFromLetters()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ Scanner\ keyboard\ \=\ new\ Scanner(System.in);\n\ \ \ \ \ \ \ \ String\ fromKeyboard\ \=\ keyboard.next();\n\ \ \ \ \ \ \ \ String[]\ stringList\ \=\ fromKeyboard.split("");\n\n\ \ \ \ \ \ \ \ ArrayList<ArrayList<String>>\ wordCreator\ \=\ new\ ArrayList<ArrayList<String>>();\n\ \ \ \ \ \ \ \ for(int\ counter\ \=\ 0;\ counter\ <\ stringList.length;\ counter\ ++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ ArrayList<String>\ letters\ \=\ alphabetizeToLetters(Integer.parseInt(stringList[counter]));\n\ \ \ \ \ \ \ \ \ \ \ \ wordCreator.add(letters);\n\ \ \ \ \ \ \ \ }\n\n\ \ \ \ \ \ \ \ //some\ way\ to\ parse\ the\ wordCreator\n\n\ \ \ \ \ \ \ \ return\ wordCreator;\n\n\ \ \ \ }\n\n\ \ \ \ public\ ArrayList<String>\ getWordsFromWordCreator()\ \ //fake\ news\n\ \ \ \ {\n\ \ \ \ \ \ \ \ ArrayList<ArrayList<String>>\ wordCreator\ \=\ getWordCreatorFromLetters();\n\n\ \ \ \ \ \ \ \ for(int\ counter\ \=\ 0;\ counter\ <\ wordCreator.get(0).size();\ counter\ ++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ String\ possibleWord\ \=\ wordCreator.get(0).get(counter);\n\n\ \ \ \ \ \ \ \ \ \ \ \ for(int\ counter2\ \=\ 1;\ counter2\ <\ wordCreator.size();\ counter2\ ++)\n\ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //for(int\ counter4\ \=\ 0;\ counter4\ <\ wordCreator.get(counter2).size();\ counter4\ ++)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ possibleWord\ \=\ possibleWord\ +\ wordCreator.get(counter2).get(0);\n\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ for(int\ counter3\ \=\ wordCreator.get(wordCreator.size()).length();\ counter3\ >\ 0;\ counter3\ --)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ possibleWord\ \=\ possibleWord\ +\ wordCreator.ge(counter2).get(counter3);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\n\ \ \ \ }\n
+comment8.params=s
+comment8.target=java.util.ArrayList\ wordsWithSection(java.lang.String)
+comment9.params=s
+comment9.target=java.util.ArrayList\ startsWith(java.lang.String)
+numComments=14

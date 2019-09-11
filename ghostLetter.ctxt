@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ghostLetter
+comment0.text=\r\n\ A\ ghostLetter\ for\ the\ Computer\ to\ make\ a\ decision\r\n\ \r\n\ @author\ Andrew\ Wang\r\n\ @version\ 3\ or\ 4\ I\ think?\ Maybe\ 5\ or\ 6...\ or\ 7...\r\n
+comment1.params=c\ p
+comment1.target=ghostLetter(char,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ghostLetter\ (for\ the\ purpose\ of\ the\ Computer\ choosing\ Letters)\r\n
+comment2.params=word
+comment2.target=char\ chooseLetter(java.lang.String)
+comment2.text=\r\n\ The\ Computer's\ turn\:\ checks\ if\ the\ User\ loses\ or\ chooses\ a\ Letter\r\n\ \r\n\ @param\ word\:\ the\ Word\ segment\ that's\ currently\ in\ play\r\n\ @return\ char\ (the\ Letter)\ or\ 0\ if\ the\ User\ loses,\ 1\ if\ the\ Computer\ loses\ (which\ it\ shouldn't\ check\ itself\ for)\r\n\ Called\ by\ ghost.computerTurn()\r\n
+numComments=3

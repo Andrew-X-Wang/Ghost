@@ -1,0 +1,12 @@
+How to Play Ghost: 
+
+Ghost is a Word game in which Players take turns adding Letters to a growing Word 
+fragment (that I call a “Ghost” in the Program but no one else does), trying not to 
+be the one to complete a valid word. Each fragment must be the beginning of an actual
+Word, starting from 3 Letter Words. Proper nouns count as Words in this game.
+
+There are 2 modes of gameplay: Challenge the Computer, or play against other people.
+
+If you find that there is a Word the Program does not recognize, you can always 
+Submit a Complaint, and the Word will be added to “Complaints.txt” and most likely 
+will not ever be considered.
