@@ -2,12 +2,13 @@ import java.util.*;
 import java.io.*;
 
 /**
- * Write a description of class WeirdStuffThatShouldntWorkButLooksLikeItDoesPleaseIgnoreThis here.
+ * Write a description of class StringEndsWith here.
  * 
  * @author Andrew Wang
  * @version 0.0
  */
-public class WeirdStuffThatShouldntWorkButLooksLikeItDoesPleaseIgnoreThis
+//@TODO: Take a look at functionality and logic within code
+public class StringEndsWith
 {
     public ArrayList<String> endsWith(String s) throws IOException
     {
